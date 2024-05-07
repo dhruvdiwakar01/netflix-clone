@@ -28,7 +28,7 @@ html body {
 }
 
 .main .box {
-    height: 644px;
+    height: 630px;
     width: 100%;
     opacity: 0.51;
     position: absolute;
@@ -146,8 +146,9 @@ section.first > div{
     flex-direction: column;
 }
 .first > div :first-child{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bolder;
+    /* line-height: 20px; */
 
 }
 .first > div :nth-child(2){
@@ -227,7 +228,9 @@ footer .questions {
 }
 
 @media screen and (max-width: 1300px) {
-
+    .main .box{
+        height: 652px;
+    }
     nav{
         max-width: 90vw;
     }
